@@ -1,0 +1,156 @@
+.navbar {
+    background: #353a40;
+  }
+
+  .navbar img {
+    width: 10em;
+    padding-left:2em;
+  }
+
+  .navbar h1 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 0.7em
+  }
+
+  .navbar a {
+    color: #fff;
+  }
+
+  .nav a:last-child  {
+    color: #279c41;
+    padding-right: 5em;
+  }
+
+  .slide img {
+    max-width: 100%;
+    z-index: -1;
+    filter: brightness(0.3);
+  }
+  
+  h5 {
+    color: #fff;
+    font-size:2em;
+  }
+
+  .carousel-caption {
+    text-align: right;
+    padding-bottom: 25%;
+    right: 5%;
+  }
+
+  .btn-outline-primary {
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: bold;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #29a744;
+    border-color: #29a744;
+  }
+
+.container {
+  display: flex;
+  justify-content: center
+}
+
+h2 {
+  text-align:center;
+}
+
+.card {
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.java {
+  color: #000000;
+  background-color: #ffc207;
+  border-color: #ffc207;
+}
+
+.react {
+  color: #fff;
+  background-color: #17a2b7;
+  border-color: #17a2b7; 
+}
+
+.negocios {
+  color: #fff;
+  background-color: #6c737b;
+  border-color: #6c737b;
+}
+
+.startups {
+  color: #fff;
+  background-color: #dd3546;
+  border-color: #dd3546;
+}
+
+.container2 {
+  display: flex;
+}
+
+.octubre {
+  display: flex;
+}
+
+.octubre div:first-child {
+  width: 50%;
+}
+
+.octubre div:last-child {
+    background-color: rgb(59, 59, 59);
+    float: right;
+    padding:2em;
+    color: #fff;
+}
+
+.formulario {
+  text-align:center;
+  margin-right: 1em;
+} 
+
+u {
+  text-decoration: none;
+  border-bottom: 3px dotted #000;
+  }
+
+.form2 {
+  display: flex;
+  justify-content: center;
+}
+
+  input {
+    margin:1em 1em;
+  }
+
+.boton-formulario {
+  margin: 1em;
+  color: #fff;
+  background-color: #96c93e;
+  border-color: #96c93e;
+}
+
+.nav-footer {
+  justify-content: center;
+  background-color: #1e516e;
+}
+
+@media (max-width: 768px){
+.container {
+  display: grid;
+}}
+
+@media (max-width: 768px){
+  .honolulu {
+    display: none;
+  }}
+
+@media (max-width: 768px){
+    .octubre {
+      display: contents;
+    }}
+
